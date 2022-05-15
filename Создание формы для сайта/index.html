@@ -1,0 +1,59 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>For Jaaja</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<!-- Оболочка для демонстрации -->
+		<div class="wrapper">
+			<!-- Контент -->
+			<form action="#" class="block-form">
+				<div class="block-form__title">My love Jaaja and Nipphaphon</div>
+				<div class="block-form__input">
+					<div class="checkbox">
+						I love Jaaja Kiriukhina
+						<input type="checkbox" checked name="namecheckbox_1">
+					</div>
+				</div>
+				<div class="block-form__input">
+					<div class="checkbox">
+						I love Nipphaphon Kiriukhina
+						<input type="checkbox" name="namecheckbox_2">
+					</div>
+				</div>
+				<div class="block-form__input">
+					<div class="radiobuttons">
+						<div class="radiobuttons__item">
+							I miss Jaaja Kiriukhina
+							<input type="radio" value="1" checked name="nameradio">
+						</div>
+						<div class="radiobuttons__item">
+							I miss Nipphaphon Kiriukhina
+							<input type="radio" value="2" name="nameradio">
+						</div>
+						<div class="radiobuttons__item">
+							I love Jaaja/Nipphaphon Kiriukhina
+							<input type="radio" value="3" name="nameradio">
+						</div>
+					</div>
+				</div>
+      <button class="button" type="submit"><span>Send Kiss for Nipphaphon</span></button>
+			</form>
+		</div>
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
